@@ -10,5 +10,19 @@ suppose products is array vairiable-
 
 var products = ["kjdbc","dsclvh","wclhnw","wcjwh"]
 
+WE LOOP AS -:
+
 each pro in products
   h1 #{pro}
+  
+  
+  
+  
+Conditional statement  -: 
+
+
+if products.length > 0
+  h1 #{products}
+  
+else  
+  h1 no products found
