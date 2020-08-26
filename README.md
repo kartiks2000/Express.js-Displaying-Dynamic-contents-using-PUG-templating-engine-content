@@ -2,3 +2,13 @@
 Express.js Displaying Dynamic contents using PUG templating engine content
 
 To dynamically send data to the template we need to send a second argument as a dictionary to "res.render()" and the we could use the vairiables by the keys specified in the dictionary in the template as -: #{ key of dictionary goes here }
+
+
+Loops in pug
+
+suppose products is array vairiable-
+
+var products = ["kjdbc","dsclvh","wclhnw","wcjwh"]
+
+each pro in products
+  h1 #{pro}
