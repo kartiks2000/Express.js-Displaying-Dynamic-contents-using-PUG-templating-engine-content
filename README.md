@@ -25,9 +25,11 @@ Conditional statement  -:
 
 
 if products.length > 0
+
   h1 #{products}
   
 else  
+
   h1 no products found
   
   
